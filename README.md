@@ -8,13 +8,13 @@ $ gcc -Wall -Werror myatoibase.c main-atoi.c -o ./myab-test $ ./myab-test
 
 for the second 
 use debian os && terminal 
-:~$ wget www.hochart.fr/CPP/res/mychainedstack-base.tgz jho@debian:~$ mkdir sbuild
-:~$ cd sbuild
-:~/sbuild$ tar xvzfk ../mychainedstack-base.tgz
+$ wget www.hochart.fr/CPP/res/mychainedstack-base.tgz jho@debian:~$ mkdir sbuild
+$ cd sbuild
+$ tar xvzfk ../mychainedstack-base.tgz
 main.cpp
 mystack.cpp
 mystack.h
-:~/sbuild$ tar xvzfk ../rendu/$ELEVE/mychainedstack.tgz mychainedstack.h
+$ tar xvzfk ../rendu/$ELEVE/mychainedstack.tgz mychainedstack.h
 mychainedstack.cpp
-:~/sbuild$ g++ -Wall -Werror mystack.cpp mychainedstack.cpp main.cpp -o mycs-test
-:~/sbuild$ ./mycs-test
+$ g++ -Wall -Werror mystack.cpp mychainedstack.cpp main.cpp -o mycs-test
+$ ./mycs-test
